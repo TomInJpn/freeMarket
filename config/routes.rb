@@ -10,19 +10,19 @@ Rails.application.routes.draw do
   # resources :items, only: [:index, :show, :new, :edit]
 
   # root "items#new"
-  resources :items ,only: [:index,:new,:create,:show,:edit] do
+  resources :items ,except: :index do
     collection do
       get 'get_children'
       get 'get_grand_children'
+    end
+    member do
+      get 'purchase'
+      get 'payment'
     end
   end
   resources :categories ,only: :new
 
   resources :card,only: [:new,:create,:destroy]
-
-  resources :items,except: :index do
-    resources :payments,only: [:new,:create]
-  end
 
   get '/users/out', to: 'users#out'
   resources :users, only: [:show]

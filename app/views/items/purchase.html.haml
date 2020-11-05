@@ -24,7 +24,7 @@
         - if @item.buyer_id
           .soldOut 売り切れました
         -elsif current_user&.id != @item.user_id
-          = form_with url:item_payments_path,local:true,id:"new_form" do |f|
+          = form_with url:payment_item_path,local:true,id:"new_form",method:"get" do |f|
             .paymentPurchase
               = f.submit "購入する",class:"paymentPurchase--button"
       - else
