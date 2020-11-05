@@ -18,7 +18,7 @@ class Item < ApplicationRecord
   validates :price, presence: true, numericality:{greater_than_or_equal_to: 300, less_than_or_equal_to: 9999999, message: "300〜9,999,999円以内で入力してください"}
 
   belongs_to :category
-  has_many    :images
+  has_many    :images, dependent: :destroy
   accepts_nested_attributes_for :images, allow_destroy: true
   # belongs_to :buyer, class_name: "User", foreign_key: "buyer_id", optional: true
   belongs_to :buyer, class_name: "User",  optional: true
