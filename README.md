@@ -21,7 +21,10 @@
 * ユーザー登録・ログイン（マークアップ・サーバーサイド）
 * 商品購入・クレジットカード登録（サーバーサイド）です。
 
-## 本アプリ期間内に制作しました。
+## portforio
+[Like weeds](https://tominjpn.github.io/portfolio/)
+
+## 本アプリ期間内に制作しました
 [個人製作最終課題](https://github.com/TomInJpn/frema-app)
 
 ## usersテーブル
