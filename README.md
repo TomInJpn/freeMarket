@@ -19,8 +19,10 @@
 
 ## 担当箇所
 * ユーザー登録・ログイン（マークアップ・サーバーサイド）
+![frema-app](https://user-images.githubusercontent.com/66042540/99434723-70b68900-2952-11eb-87f3-942d45eea29f.gif)
+![frema-app](https://user-images.githubusercontent.com/66042540/99434698-6b593e80-2952-11eb-9309-791311affe5e.png)
 * 商品購入・クレジットカード登録（サーバーサイド）です。
-
+![frema-app](https://user-images.githubusercontent.com/66042540/99434682-67c5b780-2952-11eb-85b1-82b3bf166f73.png)
 ## portforio
 [Like weeds](https://tominjpn.github.io/portfolio/)
 
