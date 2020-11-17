@@ -1,27 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 接続先情報
+* URL http://54.95.229.43/
+* ID/Pass
+  * ID: fukuoka77a
+  * Pass: lccbata77
+* テスト用アカウント等
+  * 購入者用
+    * メールアドレス: test@test.co.jp
+    * パスワード: test123
+    * 購入用カード情報
+      * 番号： 4242424242424242
+      * 期限： 2/22
+      * セキュリティコード：222
+  * 出品者用
+    * メールアドレス名: test@test.com
+    * パスワード: test123
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 担当箇所
+* ユーザー登録・ログイン（マークアップ・サーバーサイド）
+* 商品購入・クレジットカード登録（サーバーサイド）です。
 
 ## usersテーブル
 
